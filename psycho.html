@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            text-align: center;
+            background-color: dimgray;
+        }
+        @media screen and (max-width: 300px) {
+            .blog {
+                border: 1px solid aqua;
+                border-radius: 5px;
+                margin: 5px;
+                
+                background-color: aquamarine;
+            }
+            .nav_bar {
+                position: fixed;
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                top: 0;
+                width: 100%;
+                text-align: center;
+                background-color: palevioletred;
+                
+            }
+            .nav_bar li {
+                float: left;
+            }
+            .nav_bar li a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                padding: 5px 6px;
+            }
+
+            li a:hover:not(.active){
+                background-color: #111;
+            }
+            .active {
+                background-color: #04AA6D;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav_bar">
+        <li><a class="active" href="#"><i class="fa fa-fw fa-home"></i></a></li>
+        <li><a href="#"><i class="fa fa-fw fa-envelope"></i></a></li>
+        <li><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
+        <li><a href="#"><i class="fa fa-fw fa-users"></i></a></li>
+    </div>
+    <div class="main">
+        <div class="blog">
+            <h2>Artificial Intelligence and Machine Learning</h2>
+            <p>Artificial intelligence and machine learning is most demanding technology in the future. Most of the programming today learn this 
+                new technology. But in case of Bangladesh perspective there is not a good community to learn this tranding technology.
+            </p>
+        </div>
+        <div class="blog">
+            <h2>Cognitive Psychology and Behavioral Science</h2> 
+            <p>
+                Coginitive Psychology is work with how learn human any thing new. 
+                And how to communicate anyone and using language etc.
+            </p>       
+        </div>
+        <div class="blog">
+            <h2>Computer Programming and Software Engineering</h2>
+            <p>
+                Computer programming is one of the most demanding subject in the world.
+                Most of the company open there technical sector for there business.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
